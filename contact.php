@@ -21,7 +21,7 @@ header('Refresh: 3; URL=index.html');
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=default.htm">
+<meta http-equiv="refresh" content="3; url=index.html">
 <title>С вами свяжутся</title>
 <meta name="generator">
 <style type="text/css">
@@ -33,7 +33,7 @@ body
 }
 
 <script type="text/javascript">
-setTimeout('location.replace("/default.htm")', 10000);
+setTimeout('location.replace("/index.html")', 10000);
 /*Изменить текущий адрес страницы через 3 секунды (3000 миллисекунд)*/
 </script> 
 </head>
